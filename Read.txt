@@ -1,3 +1,13 @@
 	Refer below link
 
 https://scotch.io/tutorials/easy-node-authentication-setup-and-local
+
+--------------------------------------
+Before taking below steps make sure mongodb is install on your PC
+Also create one folder inside myapp folder name as data. inside data we will stored all data.
+Then run folloeing command
+1.Go to folder where mongo.exe, mongod.exe file presend using cmd then type below two command
+   a. mongod --dbpath "path of your data folder which present inside your project folder(ex. - E:/myapp/data)"
+   b. Open anather cmd on same path where mongod.exe present and type mongo .. here we can  perform all your mongodb operation
+
+2. Then run your project using node app.js command
